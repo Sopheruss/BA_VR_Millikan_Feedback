@@ -1,3 +1,4 @@
+using Oculus.Interaction;
 using System.Collections;
 using UnityEngine;
 
@@ -20,21 +21,21 @@ public class TeleportToOrigin : MonoBehaviour
     // when collision with floor was detected, a timer starts 
     // after timer is finished object gets teleported back to original position
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         // resetting bool checks wheter the timer was already started to avoid starting more than one process of position reset 
-        if (collision.gameObject == Floor && !resetting)
+        if (other.gameObject == Floor && resetting == false)
         {
+            resetting = true;
             resetTime = StartCoroutine(DelayTeleport());
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
         // when the Collision with floor stops and the object is currently resetting, the coroutine is stopped 
-        // resetting is also set to false, cuz reset is not happening anymore 
-
-        if (collision.gameObject == Floor && resetting)
+        // resetting is also set to false, cuz reset is not happening anymore
+        if (other.gameObject == Floor && resetting == true)
         {
             StopCoroutine(resetTime);
             resetting = false;
@@ -45,9 +46,9 @@ public class TeleportToOrigin : MonoBehaviour
     // resetting bool is there as a check so that no two time can be started at the same time 
     private IEnumerator DelayTeleport()
     {
-        resetting = true; 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         ResetPosition();
+        resetting = false;
     }
 
     private void ResetPosition()
