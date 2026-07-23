@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FirstCapaThenLid : MonoBehaviour
 {
-    [SerializeField] private Collider snapInteractableLidCollider;
+    [SerializeField ] private SnapInteractable snapInteractableLid;
     SnapInteractable snapInteractableCapacitor; 
 
     void Start()
@@ -15,18 +15,18 @@ public class FirstCapaThenLid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckColliderActivity();
+        CheckInteractorActivity();
     }
 
-    private void CheckColliderActivity()
+    private void CheckInteractorActivity()
     {
         if (snapInteractableCapacitor.SelectingInteractorViews.Any())
         {
-            snapInteractableLidCollider.enabled = true;
+            snapInteractableLid.enabled = true;
         }
         else
         {
-            snapInteractableLidCollider.enabled = false;
+            snapInteractableLid.enabled = false;
         }
     }
 }

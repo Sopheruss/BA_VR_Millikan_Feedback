@@ -1,9 +1,13 @@
+Models: 
 "Keyboard" (https://skfb.ly/GXU9) by thethieme is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
 "ceiling lamp-10MB" (https://skfb.ly/oVMDx) by Mehdi Shahsavan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Labratory Room (https://github.com/cannelino/VisDisrup_Millikan/tree/main/Assets) by cannelino 
+	-> under Assets room3 
 
+Images: 
 Physics Poster (https://de.pinterest.com/pin/5911043259418773/) by Maria 
-
 Schrödingers Cat Poster (https://de.pinterest.com/pin/350647520998842757/) by Sebastian Zappe
 
-
+Assets: 
+Collider Visualizer (https://assetstore.unity.com/packages/tools/utilities/collider-visualizer-318546#publisher) by ChepGameSystems
+Optimized Rope And Cable (https://assetstore.unity.com/packages/tools/physics/optimized-ropes-and-cables-tool-287164) by GOGO GAGA
