@@ -2,19 +2,19 @@ using Oculus.Interaction;
 using System.Linq;
 using UnityEngine;
 
+/* Disables the child game object, which is responsable for physics collision */
 public class InteractorColliderDisableOnSnap : MonoBehaviour
 {
     SnapInteractable snapInteractable;
     SnapInteractor snapInteractorObject;
     GameObject snapInteractorParent;
-    Collider objectCollider;
-    bool disableCollider; 
-    //int snapInteractorIdentifier;
+    GameObject snapInteractorChild;
+    bool colliderObjectActive; 
 
     void Start()
     {
         snapInteractable = GetComponent<SnapInteractable>();
-        disableCollider = false; 
+        colliderObjectActive = true; 
     }
 
     void Update()
@@ -22,36 +22,43 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
         DisableInteractableCollider();
     }
 
+    /* Checks whether a snap interactable has a interactor. 
+       When there is an interaction happening and the collider is active, it will be disabled. 
+       When there is no interaction happening, but the collider is still disabled, it will be reactivated. 
+    */
     private void DisableInteractableCollider()
     {
         if (snapInteractable.SelectingInteractorViews.Any())
         {
-            DisableInteractorCollision();
-        } else
+            if (colliderObjectActive == true)
+            {
+                DisableInteractorCollision();
+            }
+        } else if (colliderObjectActive == false)
         {
-            //objectCollider.enabled = true; 
+            // Child Object that is responsible for physics collision is reactivated 
+            snapInteractorChild.SetActive(true); 
+            colliderObjectActive = true;
         }
     }
 
     private void DisableInteractorCollision()
     {
+        // accesses the snap interactor currently interacting with the interactable 
         foreach (IInteractorView interactor in snapInteractable.SelectingInteractorViews)
         {
             if (interactor is SnapInteractor snapInteractor)
             {
-                Debug.Log("Snap Interactor found: " + snapInteractor.name.ToString());
-                snapInteractorObject = (SnapInteractor)interactor;
-                disableCollider = true; 
+                snapInteractorObject = (SnapInteractor) interactor;
             }
         }
 
+        // gets the parent game object of the snap interactor
         snapInteractorParent = snapInteractorObject.transform.parent.gameObject;
 
-        objectCollider = snapInteractorParent.GetComponentInChildren<Collider>();
-
-        objectCollider.enabled = false;
-        Debug.Log("Parent of snapInteractor: " + snapInteractorParent.name.ToString());
-
-
+        // accesses the child object with the name PhysicsCollider and disables it
+        snapInteractorChild = snapInteractorParent.transform.Find("PhysicsCollider").gameObject;
+        snapInteractorChild.SetActive(false);
+        colliderObjectActive = false; 
     }
 }

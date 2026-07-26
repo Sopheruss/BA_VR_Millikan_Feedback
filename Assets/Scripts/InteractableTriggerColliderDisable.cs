@@ -6,43 +6,43 @@ using UnityEngine.Events;
 
 public class InteractableTriggerColliderDisable : MonoBehaviour
 {
-    Collider Collider;
-    SnapInteractable snapInteractable;
-    SnapInteractor snapInteractorObject;
-    //int snapInteractorIdentifier; 
+    Collider interactableCollider;
+    SnapInteractable snapInteractable; 
  
     void Start()
     {
-       Collider = GetComponentInChildren<Collider>();
-       snapInteractable = GetComponent<SnapInteractable>();
+        snapInteractable = GetComponent<SnapInteractable>();
+        interactableCollider = GetComponentInChildren<Collider>();
     }
 
+    /* Enables/Disabled Trigger Collider of Interactable when a snap interactor is snapped into the interactable. 
+     * This is done to avoid, that another snap interactor can use the trigger box of the interactable to snap to another object. 
+     * Would the collider not be disabled, the collider could be utilized to snap an interactor to another random interactable. 
+     */
     void Update()
     {
-        DisableInteractableCollider(); 
+        if (snapInteractable.SelectingInteractorViews.Any())
+        { // when there is a collision happening and the collider is active, it is disabled. 
+            if(interactableCollider.enabled == true)
+            {
+                DisableInteractableCollider();
+            }
+        } else
+        { // when there is no interaction happening, the collider gets reactivated. 
+            if(interactableCollider.enabled == false)
+            {
+                EnableInteractableCollider();
+            }
+        }
     }
 
     private void DisableInteractableCollider()
     {
-        if (snapInteractable.SelectingInteractorViews.Any())
-        {
-            Collider.enabled = false;
-            //DisableInteractorCollision();
-        } else
-        {
-            Collider.enabled = true;
-        }
+        interactableCollider.enabled = false;
     }
 
-    /*private void DisableInteractorCollision()
+    private void EnableInteractableCollider()
     {
-        foreach (IInteractorView interactor in snapInteractable.SelectingInteractorViews)
-        {
-            if(interactor is SnapInteractor snapInteractor)
-            {
-                Debug.Log("Snap Interactor found: " + snapInteractor.name.ToString());
-                snapInteractorObject = (SnapInteractor) interactor;
-            }
-        }
-    }*/
+        interactableCollider.enabled = true; 
+    }
 }

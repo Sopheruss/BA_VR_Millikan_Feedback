@@ -5,14 +5,12 @@ using UnityEngine;
 public class FirstCapaThenLid : MonoBehaviour
 {
     [SerializeField ] private SnapInteractable snapInteractableLid;
-    SnapInteractable snapInteractableCapacitor; 
+    SnapInteractable snapInteractableCapacitor;
 
     void Start()
     {
         snapInteractableCapacitor = GetComponent<SnapInteractable>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         CheckInteractorActivity();
@@ -22,11 +20,17 @@ public class FirstCapaThenLid : MonoBehaviour
     {
         if (snapInteractableCapacitor.SelectingInteractorViews.Any())
         {
-            snapInteractableLid.enabled = true;
+            if(snapInteractableLid.enabled == false)
+            {
+                snapInteractableLid.enabled = true;
+            }
         }
         else
         {
-            snapInteractableLid.enabled = false;
+            if(snapInteractableLid.enabled == true)
+            {
+                snapInteractableLid.enabled = false;
+            }
         }
     }
 }
