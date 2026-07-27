@@ -8,14 +8,16 @@ public class TeleportToOrigin : MonoBehaviour
     Vector3 startPos;
     Quaternion rotation;
 
+    [SerializeField] GameObject ObjectToTeleport; 
+
     Coroutine resetTime;
     bool resetting; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        startPos = transform.position;
-        rotation = transform.rotation;
+        startPos = ObjectToTeleport.transform.position;
+        rotation = ObjectToTeleport.transform.rotation;
     }
 
     // when collision with floor was detected, a timer starts 
@@ -53,7 +55,7 @@ public class TeleportToOrigin : MonoBehaviour
 
     private void ResetPosition()
     {
-        transform.position = startPos;
-        transform.rotation = rotation;
+        ObjectToTeleport.transform.position = startPos;
+        ObjectToTeleport.transform.rotation = rotation;
     }
 }

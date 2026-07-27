@@ -8,7 +8,7 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
     SnapInteractable snapInteractable;
     SnapInteractor snapInteractorObject;
     GameObject snapInteractorParent;
-    GameObject snapInteractorChild;
+    GameObject snapInteractorChildPhysicsCollider;
     bool colliderObjectActive; 
 
     void Start()
@@ -34,11 +34,14 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
             {
                 DisableInteractorCollision();
             }
-        } else if (colliderObjectActive == false)
+        } else
         {
-            // Child Object that is responsible for physics collision is reactivated 
-            snapInteractorChild.SetActive(true); 
-            colliderObjectActive = true;
+            //name is misleading and not representation for the actual state of the collision, since it is also deactivated when grabbing is active 
+            //this bool is just for making sure the script logic is still working 
+            if (colliderObjectActive == false)
+            {
+                colliderObjectActive = true;
+            }      
         }
     }
 
@@ -57,8 +60,8 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
         snapInteractorParent = snapInteractorObject.transform.parent.gameObject;
 
         // accesses the child object with the name PhysicsCollider and disables it
-        snapInteractorChild = snapInteractorParent.transform.Find("PhysicsCollider").gameObject;
-        snapInteractorChild.SetActive(false);
+        snapInteractorChildPhysicsCollider = snapInteractorParent.transform.Find("PhysicsCollider").gameObject;
+        snapInteractorChildPhysicsCollider.SetActive(false);
         colliderObjectActive = false; 
     }
 }
