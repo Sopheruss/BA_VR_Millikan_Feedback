@@ -48,12 +48,9 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
     private void DisableInteractorCollision()
     {
         // accesses the snap interactor currently interacting with the interactable 
-        foreach (IInteractorView interactor in snapInteractable.SelectingInteractorViews)
+        foreach (SnapInteractor interactor in snapInteractable.SelectingInteractors)
         {
-            if (interactor is SnapInteractor snapInteractor)
-            {
-                snapInteractorObject = (SnapInteractor) interactor;
-            }
+            snapInteractorObject = (SnapInteractor)interactor;
         }
 
         // gets the parent game object of the snap interactor
