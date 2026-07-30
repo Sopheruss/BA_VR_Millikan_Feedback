@@ -11,3 +11,7 @@ Schrödingers Cat Poster (https://de.pinterest.com/pin/350647520998842757/) by Se
 Assets: 
 Collider Visualizer (https://assetstore.unity.com/packages/tools/utilities/collider-visualizer-318546#publisher) by ChepGameSystems
 Optimized Rope And Cable (https://assetstore.unity.com/packages/tools/physics/optimized-ropes-and-cables-tool-287164) by GOGO GAGA
+
+Sounds: 
+"freesound_community-wrong-47985" (https://pixabay.com/sound-effects/film-special-effects-wrong-47985/) by freesound_community 
+"dragon-studio-correct-472358" (https://pixabay.com/sound-effects/technology-correct-472358/) by DRAGON-STUDIO
