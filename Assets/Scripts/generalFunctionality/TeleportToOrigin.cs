@@ -44,11 +44,11 @@ public class TeleportToOrigin : MonoBehaviour
         }
     }
 
-    // Coroutine that waits 10 seconds and resets position afterwards 
+    // Coroutine that waits 3 seconds and resets position afterwards 
     // resetting bool is there as a check so that no two time can be started at the same time 
     private IEnumerator DelayTeleport()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         ResetPosition();
         resetting = false;
     }
