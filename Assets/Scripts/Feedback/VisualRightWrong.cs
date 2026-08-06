@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class VisualRightOrWrong : MonoBehaviour
 {
-    [SerializeField] SnapInteractor rightInteractor;
+    [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
     SnapInteractor interactingInteractor; 
@@ -41,10 +41,10 @@ public class VisualRightOrWrong : MonoBehaviour
                         interactingInteractor = interactor;
                     }
 
-                    initialMaterial = interactingInteractor.transform.parent.GetComponent<Renderer>().materials; 
+                    initialMaterial = interactingInteractor.transform.parent.GetComponent<Renderer>().materials;
 
-                    // if the interactor is the right interactor, the color is changed to green; if not the color is changes to red
-                    if (thisInteractable.SelectingInteractors.Contains(rightInteractor))
+                // if the interactor is the right interactor, the color is changed to green; if not the color is changes to red
+                if (rightInteractor.Contains(thisInteractable.SelectingInteractors.First()))
                     {
                         makeGreenRoutine = StartCoroutine(ChangeMaterial(correctMaterial));  
                     }

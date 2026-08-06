@@ -2,10 +2,11 @@ using Oculus.Haptics;
 using Oculus.Interaction;
 using System.Linq;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class AudioRightWrong : MonoBehaviour
 {
-    [SerializeField] SnapInteractor rightInteractor;
+    [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
     bool hasPrinted;
@@ -34,8 +35,7 @@ public class AudioRightWrong : MonoBehaviour
             {
                 if (hasPrinted == false)
                 {
-                    if (thisInteractable.SelectingInteractors.Contains(rightInteractor))
-                    {
+                    if (rightInteractor.Contains(thisInteractable.SelectingInteractors.First())) { 
                         PlayCorrect();
                         //Debug.Log("Maus: right interactor");
                     }
