@@ -9,68 +9,53 @@ public class VisualRightOrWrong : MonoBehaviour
     [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
-    SnapInteractor interactingInteractor; 
-
     [SerializeField] Material correctMaterial;
     [SerializeField] Material wrongMaterial;
 
-    Material[] initialMaterial; 
+    Material[] initialMaterial;
 
-    Coroutine makeGreenRoutine;
-    Coroutine makeRedRoutine; 
+    Renderer matRenderer;
+    Material[] materials; 
 
-    bool hasPrinted; 
+    Coroutine routine;  
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisInteractable = GetComponent<SnapInteractable>();
-        hasPrinted = false; 
+        thisInteractable.WhenSelectingInteractorAdded.Action += OnInteractorAdded;
+        thisInteractable.WhenSelectingInteractorRemoved.Action -= OnInteractorRemoved;  
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnInteractorAdded(SnapInteractor interactor)
     {
-            if (thisInteractable.SelectingInteractors.Any())
-            {
-                if (hasPrinted == false)
-                {
-                    // get initial Material of the current interactor 
-                    foreach (SnapInteractor interactor in thisInteractable.SelectingInteractors)
-                    {
-                        interactingInteractor = interactor;
-                    }
+        initialMaterial = interactor.transform.parent.GetComponent<Renderer>().materials;
 
-                    initialMaterial = interactingInteractor.transform.parent.GetComponent<Renderer>().materials;
+        if (!rightInteractor.Contains(interactor))
+        {
+            routine = StartCoroutine(ChangeMaterial(wrongMaterial, interactor)); 
+            return;
+        }
 
-                // if the interactor is the right interactor, the color is changed to green; if not the color is changes to red
-                if (rightInteractor.Contains(thisInteractable.SelectingInteractors.First()))
-                    {
-                        makeGreenRoutine = StartCoroutine(ChangeMaterial(correctMaterial));  
-                    }
-                    else
-                    {
-                        makeRedRoutine = StartCoroutine(ChangeMaterial(wrongMaterial));
-                    }
-
-                    hasPrinted = true;
-                }
-            } else
-            {
-                hasPrinted = false; 
-            }
+        routine = StartCoroutine(ChangeMaterial(correctMaterial, interactor));
     }
 
-    private IEnumerator ChangeMaterial(Material changeToMaterial)
+    private void OnInteractorRemoved(SnapInteractor interactor)
     {
-        Renderer renderer = interactingInteractor.transform.parent.GetComponent<Renderer>();
-        Material[] materials = renderer.materials;
+        StopCoroutine(routine);
+        matRenderer.materials = initialMaterial;
+    }
+
+    private IEnumerator ChangeMaterial(Material changeToMaterial, SnapInteractor interactor)
+    {
+        matRenderer = interactor.transform.parent.GetComponent<Renderer>();
+        materials = matRenderer.materials;
 
         System.Array.Fill(materials, changeToMaterial);
-        renderer.materials = materials; // replaces all of the material to green materials 
+        matRenderer.materials = materials; // replaces all of the material to green materials 
 
         yield return new WaitForSeconds(0.5f);
 
-        renderer.materials = initialMaterial; // changes materials back to initial materials 
+        matRenderer.materials = initialMaterial; // changes materials back to initial materials 
     }
 }

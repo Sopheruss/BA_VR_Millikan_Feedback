@@ -9,62 +9,39 @@ public class RightOrWrongHaptics : MonoBehaviour
     [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
-    bool hasPrinted;
-
     [SerializeField] private HapticClip correct; 
     [SerializeField] private HapticClip wrong;
 
     private HapticClipPlayer hapticClipPlayer;
 
-    //public bool leftController; 
-    //public bool rightController;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisInteractable = GetComponent<SnapInteractable>();
-        hasPrinted = false;
-
-        hapticClipPlayer = new HapticClipPlayer(correct); 
+        hapticClipPlayer = new HapticClipPlayer(correct);
+        thisInteractable.WhenSelectingInteractorAdded.Action += OnInteractorAdded;
+        thisInteractable.WhenSelectingInteractorRemoved.Action -= OnInteractorRemoved; 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnInteractorAdded(SnapInteractor interactor)
     {
-            if (thisInteractable.SelectingInteractors.Any())
-            {
-                if (hasPrinted == false)
-                {
-                    if (rightInteractor.Contains(thisInteractable.SelectingInteractors.First()))
-                    {
-                        PlayCorrect();
-                        //Debug.Log("Maus: right interactor");
-                    }
-                    else
-                    {
-                        PlayWrong();
-                        //Debug.Log("Maus: wrong interactor");
-                    }
+        if (!rightInteractor.Contains(interactor)) {
+            PlayHaptics(wrong);
+            return; 
+        }
 
-                    hasPrinted = true;
-                }
-            } else
-            {
-                hasPrinted = false; 
-            }
+        PlayHaptics(correct); 
     }
 
-    public void PlayCorrect()
+    private void OnInteractorRemoved(SnapInteractor interactor)
     {
-        hapticClipPlayer.clip = correct;
+        hapticClipPlayer.Stop(); 
+    }
+
+    private void PlayHaptics(HapticClip clip)
+    {
+        hapticClipPlayer.clip = clip;
         hapticClipPlayer.Play(Controller.Both);
-        //Debug.Log("Correct haptic played"); 
-    }
-
-    public void PlayWrong()
-    {
-        hapticClipPlayer.clip = wrong;
-        hapticClipPlayer.Play(Controller.Both);
-        //Debug.Log("Correct haptic played");
+        Debug.Log("Correct haptic played");
     }
 }

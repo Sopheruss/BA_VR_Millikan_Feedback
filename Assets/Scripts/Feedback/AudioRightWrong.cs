@@ -9,57 +9,40 @@ public class AudioRightWrong : MonoBehaviour
     [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
-    bool hasPrinted;
-
     [SerializeField] private AudioClip correct; 
     [SerializeField] private AudioClip wrong;
 
     private AudioSource audioSource; 
 
-    //public bool leftController; 
-    //public bool rightController;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisInteractable = GetComponent<SnapInteractable>();
-        hasPrinted = false;
-
         audioSource = GetComponent<AudioSource>();
+        thisInteractable.WhenSelectingInteractorAdded.Action += OnInteractorAdded;
+        thisInteractable.WhenSelectingInteractorRemoved.Action -= OnInteractorRemoved; 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnInteractorAdded(SnapInteractor interactor)
     {
-            if (thisInteractable.SelectingInteractors.Any())
-            {
-                if (hasPrinted == false)
-                {
-                    if (rightInteractor.Contains(thisInteractable.SelectingInteractors.First())) { 
-                        PlayCorrect();
-                        //Debug.Log("Maus: right interactor");
-                    }
-                    else
-                    {
-                        PlayWrong();
-                        //Debug.Log("Maus: wrong interactor");
-                    }
+        if (!rightInteractor.Contains(interactor))
+        {
+            PlaySound(wrong);
+            Debug.Log("Maus: Wrong interactor");
+            return;
+        }
 
-                    hasPrinted = true;
-                }
-            } else
-            {
-                hasPrinted = false; 
-            }
-    }   
-
-    private void PlayCorrect()
-    {
-        audioSource.PlayOneShot(correct);
+        PlaySound(correct);
+        Debug.Log("Maus: correct interactor"); 
     }
 
-    private void PlayWrong()
+    private void OnInteractorRemoved(SnapInteractor interactor)
     {
-        audioSource.PlayOneShot(wrong);
+        audioSource.Stop();
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip); 
     }
 }
