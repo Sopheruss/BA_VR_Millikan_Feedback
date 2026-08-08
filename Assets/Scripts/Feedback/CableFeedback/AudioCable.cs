@@ -2,18 +2,24 @@ using Oculus.Interaction;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestCable : MonoBehaviour
+public class AudioCable : MonoBehaviour
 {
     [SerializeReference] List<SnapInteractor> rightInteractor = new();
     SnapInteractable thisInteractable;
 
-    [SerializeField] SnapInteractable targetInteractable; 
+    [SerializeField] SnapInteractable targetInteractable;
+
+    [SerializeField] AudioClip right; 
+    [SerializeField] AudioClip wrong;
+
+    private AudioSource audioSource; 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisInteractable = GetComponent<SnapInteractable>();
+        audioSource = GetComponent<AudioSource>();
         thisInteractable.WhenSelectingInteractorAdded.Action += OnInteractorAdded;
         thisInteractable.WhenSelectingInteractorRemoved.Action += OnInteractorRemoved;
     }
@@ -25,6 +31,7 @@ public class TestCable : MonoBehaviour
         if (!rightInteractor.Contains(interactor))
         {
             Debug.Log("Maus: Wrong Interactor");
+            PlaySound(wrong); 
             return;
         }
 
@@ -39,16 +46,19 @@ public class TestCable : MonoBehaviour
         if (interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn == 1)
         {
             Debug.Log("Maus: Right First Interactor");
+            PlaySound(right);
         }
         else
         {
             if (thisInteractable != interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target)
             {
                 Debug.Log("Maus: Wrong Second Interactor");
+                PlaySound(wrong); 
                 return;
             }
 
             Debug.Log("Maus: Right Second Interactor");
+            PlaySound(right);
         }        
     }
 
@@ -59,8 +69,11 @@ public class TestCable : MonoBehaviour
         if (!rightInteractor.Contains(interactor))
         {
             Debug.Log("Maus: Wrong Interactor removed!");
+            audioSource.Stop();
             return;
         }
+
+        audioSource.Stop();
 
         interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn--;
 
@@ -71,5 +84,10 @@ public class TestCable : MonoBehaviour
 
         Debug.Log($"Maus: Parent Stuff: {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target} und {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn}");
 
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
