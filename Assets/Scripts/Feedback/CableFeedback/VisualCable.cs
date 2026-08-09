@@ -18,7 +18,7 @@ public class VisualCable : MonoBehaviour
     [SerializeField] Material right; 
     [SerializeField] Material wrong;
 
-
+    /*
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -103,4 +103,5 @@ public class VisualCable : MonoBehaviour
 
         matRenderer.materials = initialMaterial; // changes materials back to initial materials 
     }
+    */
 }

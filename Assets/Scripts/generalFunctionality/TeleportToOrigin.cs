@@ -8,7 +8,7 @@ public class TeleportToOrigin : MonoBehaviour
     Vector3 startPos;
     Quaternion rotation;
 
-    [SerializeField] GameObject ObjectToTeleport; 
+    [SerializeField] GameObject ObjectToTeleport;
 
     Coroutine resetTime;
     bool resetting; 

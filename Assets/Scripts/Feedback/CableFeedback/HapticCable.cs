@@ -37,13 +37,13 @@ public class HapticCable : MonoBehaviour
         }
 
         interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn++;
-
+        /*
         if (interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target == null) {
             interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target = targetInteractable;
         }
 
         Debug.Log($"Maus: Parent Stuff: {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target.name} und {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn}");
-
+        */
         if (interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn == 1)
         {
             Debug.Log("Maus: Right First Interactor");
@@ -51,12 +51,14 @@ public class HapticCable : MonoBehaviour
         }
         else
         {
+            /*
             if (thisInteractable != interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target)
             {
                 Debug.Log("Maus: Wrong Second Interactor");
                 PlayHaptics(wrong); 
                 return;
             }
+            */
 
             Debug.Log("Maus: Right Second Interactor");
             PlayHaptics(right);
@@ -80,10 +82,10 @@ public class HapticCable : MonoBehaviour
 
         if(interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn == 0)
         {
-            interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target = null;
+            // interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target = null;
         }
 
-        Debug.Log($"Maus: Parent Stuff: {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target} und {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn}");
+        // Debug.Log($"Maus: Parent Stuff: {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().target} und {interactor.transform.parent.transform.parent.GetComponent<WhereToGo>().ChildrenPlugedIn}");
 
     }
 

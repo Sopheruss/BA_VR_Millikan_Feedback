@@ -14,6 +14,8 @@
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.10",
     "com.unity.xr.oculus": "4.5.4",
+    "org.nuget.serilog": "4.4.0",
+    "org.nuget.serilog.sinks.file": "7.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -48,5 +50,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ]
 }

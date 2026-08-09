@@ -32,7 +32,7 @@ public class AudioRightWrong : MonoBehaviour
             return;
         }
 
-        PlaySound(correct);
+        PlaySound(correct); 
         Debug.Log("Maus: correct interactor"); 
     }
 

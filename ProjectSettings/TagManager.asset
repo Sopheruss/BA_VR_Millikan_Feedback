@@ -16,11 +16,12 @@ TagManager:
   - RedCable
   - BlueCable
   - BlackCable
+  - Cable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Teleport Collision
+  - TeleportObjectsLayer
   - Water
   - UI
   - 
