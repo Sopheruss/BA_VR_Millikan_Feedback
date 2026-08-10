@@ -21,7 +21,7 @@ public static class Counter
 
     public static bool GameFinished()
     {
-        if(isDone == 3) //there are 17 interactables that have to be snapped correctly, 19 when counting the netzstecker
+        if(isDone == 17) //there are 17 interactables that have to be snapped correctly, 19 when counting the netzstecker
         {
             return true;
         }
