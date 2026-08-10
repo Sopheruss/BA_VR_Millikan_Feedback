@@ -16,12 +16,25 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
 
     private void OnInteractorAdded(SnapInteractor interactor)
     {
-        DisableCollider(false, interactor);
-    }
+        var snapInteractorParentRigidbody = interactor.transform.parent.gameObject.GetComponent<Rigidbody>();
 
-    private void OnInteractorRemoved(SnapInteractor interactor)
+        //Debug.Log($"{snapInteractorParentRigidbody.name} is kinematic active: {snapInteractorParentRigidbody.isKinematic}");
+        //Debug.Log($"{snapInteractorParentRigidbody.name} use gravity active: {snapInteractorParentRigidbody.useGravity}");
+
+        EnableKinematic(true, interactor);
+
+        if (interactor.transform.parent.CompareTag("Cable"))
+        {
+            DisableCollider(false, interactor);
+        }
+    }
+    private void EnableKinematic(bool active, SnapInteractor interactor)
     {
-        //DisableCollider(true, interactor);
+        var snapInteractorParentRigidbody = interactor.transform.parent.gameObject.GetComponent<Rigidbody>();
+        snapInteractorParentRigidbody.isKinematic = active;
+        snapInteractorParentRigidbody.useGravity = !active;
+        //Debug.Log($"{snapInteractorParentRigidbody.name} is kinematic active: {snapInteractorParentRigidbody.isKinematic}");
+        //Debug.Log($"{snapInteractorParentRigidbody.name} use gravity active: {snapInteractorParentRigidbody.useGravity}");
     }
 
     private void DisableCollider(bool disable, SnapInteractor interactor)
@@ -29,6 +42,18 @@ public class InteractorColliderDisableOnSnap : MonoBehaviour
         var snapInteractorParent = interactor.transform.parent.gameObject;
         var snapInteractorChildPhysicsCollider = snapInteractorParent.transform.Find("PhysicsCollider").gameObject;
         snapInteractorChildPhysicsCollider.SetActive(disable);
-        Debug.Log($"Maus: Collider active {disable}"); 
+        //Debug.Log($"Maus: Collider active {disable}");
+    }
+
+    private void OnInteractorRemoved(SnapInteractor interactor)
+    {
+        //is kinematic has to be disabled again after removal; use gravity does not have to be truned on since that is handles by the hand grab component 
+        var snapInteractorParentRigidbody = interactor.transform.parent.gameObject.GetComponent<Rigidbody>();
+        snapInteractorParentRigidbody.isKinematic = false;
+
+        if (interactor.transform.parent.CompareTag("Cable"))
+        {
+            DisableCollider(true, interactor);
+        }
     }
 }

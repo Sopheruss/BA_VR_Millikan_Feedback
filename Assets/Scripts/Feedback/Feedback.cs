@@ -38,11 +38,15 @@ public class Feedback : MonoBehaviour
     private Material visualRight; 
     private Material visualWrong;
 
+    bool correctInteractorAdded;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisInteractable = GetComponent<SnapInteractable>();
+
+        correctInteractorAdded = false; 
 
         if (auditiv)
         {
@@ -75,6 +79,8 @@ public class Feedback : MonoBehaviour
 
     private void OnInteractorAdded(SnapInteractor interactor)
     {
+        Logging.log.Information($"{interactor.name} got pluggin in.");
+
         if (isAlwaysWrong)
         {
             Wrong(interactor);
@@ -95,6 +101,16 @@ public class Feedback : MonoBehaviour
 
     private void Right(SnapInteractor interactor)
     {
+        Logging.log.Information($"{interactor.name} added to CORRECT Interactable {thisInteractable.name}; Feedback given.");
+
+        if (!interactor.transform.parent.CompareTag("Netzstecker")) 
+        {
+            //if a right element was aded, counter +1 
+            // Netzstecker do not count into correct counter
+            Counter.UpdateCounter(true);
+            correctInteractorAdded = true;
+        }
+
         if (visual)
         {
             initialMaterial = interactor.transform.parent.GetComponent<Renderer>().materials;
@@ -112,6 +128,8 @@ public class Feedback : MonoBehaviour
 
     private void Wrong(SnapInteractor interactor)
     {
+        Logging.log.Information($"{interactor.name} added to WRONG Interactable {thisInteractable.name}. Feedback given.");
+
         if (visual)
         {
             initialMaterial = interactor.transform.parent.GetComponent<Renderer>().materials;
@@ -129,6 +147,16 @@ public class Feedback : MonoBehaviour
 
     private void OnInteractorRemoved(SnapInteractor interactor)
     {
+        Logging.log.Information($"{interactor.name} got removed.");
+
+        //Counter only has to be updated if a correct interactor is removed again 
+        if(correctInteractorAdded == true)
+        {
+            Logging.log.Information($"{interactor.name} that was eigentlich correct got removed.");
+            correctInteractorAdded = false; 
+            Counter.UpdateCounter(false);
+        }
+
         if (visual)
         {
             StopCoroutine(routine);
