@@ -6457,3 +6457,533 @@
 2026-08-10 20:51:52.752 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
 2026-08-10 20:51:52.755 +02:00 [INF] snapInteractorMicroscope got removed.
 2026-08-10 20:51:52.755 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 14:17:04.935 +02:00 [INF] LOG STARTED.
+2026-08-13 14:17:20.710 +02:00 [INF] snapInteractorRedEnd1 got pluggin in.
+2026-08-13 14:17:20.710 +02:00 [INF] snapInteractorRedEnd1 added to WRONG Interactable SnapInteractableTime1Lower. Feedback given.
+2026-08-13 14:17:21.807 +02:00 [INF] snapInteractorRedEnd1 got removed.
+2026-08-13 14:17:22.401 +02:00 [INF] snapInteractorRedEnd1 got pluggin in.
+2026-08-13 14:17:22.401 +02:00 [INF] snapInteractorRedEnd1 added to CORRECT Interactable SnapInteractableTime1Upper; Feedback given.
+2026-08-13 14:17:28.371 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 14:17:28.371 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 14:18:14.921 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 14:18:14.921 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 14:18:18.697 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 14:18:18.697 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 14:18:27.948 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 14:18:27.948 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 14:18:29.988 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 14:18:29.988 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 14:19:05.695 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 14:19:05.695 +02:00 [INF] snapInteractorLid added to CORRECT Interactable SnapInteractableLid; Feedback given.
+2026-08-13 14:19:06.513 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 14:19:06.513 +02:00 [INF] snapInteractorLid that was eigentlich correct got removed.
+2026-08-13 14:19:06.834 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 14:19:06.834 +02:00 [INF] snapInteractorLid added to CORRECT Interactable SnapInteractableLid; Feedback given.
+2026-08-13 14:19:17.804 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got pluggin in.
+2026-08-13 14:19:17.804 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit added to CORRECT Interactable snapInteractableOutlet2; Feedback given.
+2026-08-13 14:19:20.107 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:19:20.107 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:19:21.661 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:19:21.661 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:20:45.596 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:20:45.596 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 14:20:48.595 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:20:49.414 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:20:49.414 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 14:20:50.428 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:20:50.943 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:20:50.943 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableBlueLower. Feedback given.
+2026-08-13 14:21:07.273 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:21:22.703 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:21:22.703 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableBlueLower. Feedback given.
+2026-08-13 14:21:24.772 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:21:28.174 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:21:28.174 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 14:21:31.630 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:21:32.255 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:21:32.255 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:21:34.602 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:35.659 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:40.354 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:42.087 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:44.172 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:44.976 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:46.339 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:47.951 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:47.966 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:21:47.966 +02:00 [INF] snapInteractorKapilarrohr added to CORRECT Interactable SnapInteractableKapilarrohr; Feedback given.
+2026-08-13 14:21:49.963 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:49.963 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:21:49.963 +02:00 [INF] snapInteractorKapilarrohr that was eigentlich correct got removed.
+2026-08-13 14:21:52.755 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:52.771 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:21:52.771 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableBlueLower. Feedback given.
+2026-08-13 14:21:55.768 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:55.768 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:21:56.504 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:56.518 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:21:56.518 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableRedUpper. Feedback given.
+2026-08-13 14:21:58.282 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:21:58.282 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:21:58.963 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:21:58.977 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:21:58.977 +02:00 [INF] snapInteractorKapilarrohr added to CORRECT Interactable SnapInteractableKapilarrohr; Feedback given.
+2026-08-13 14:22:02.921 +02:00 [INF] snapInteractorNetzsteckerStopWatch got pluggin in.
+2026-08-13 14:22:02.921 +02:00 [INF] snapInteractorNetzsteckerStopWatch added to WRONG Interactable SnapInteractableBlueLower. Feedback given.
+2026-08-13 14:22:05.504 +02:00 [INF] snapInteractorNetzsteckerStopWatch got removed.
+2026-08-13 14:22:11.419 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 14:22:11.420 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 14:23:12.774 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:12.774 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:23:13.662 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:13.662 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:23:27.076 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 14:23:27.076 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 14:23:29.576 +02:00 [INF] snapInteractorNetzsteckerStopWatch got pluggin in.
+2026-08-13 14:23:29.576 +02:00 [INF] snapInteractorNetzsteckerStopWatch added to CORRECT Interactable snapInteractableOutlet1; Feedback given.
+2026-08-13 14:23:37.935 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:37.935 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:23:38.005 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 14:23:38.005 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 14:23:38.783 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 14:23:38.783 +02:00 [INF] snapInteractorLid that was eigentlich correct got removed.
+2026-08-13 14:23:40.394 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 14:23:40.394 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 14:23:41.476 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:23:41.478 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:23:41.478 +02:00 [INF] snapInteractorKapilarrohr that was eigentlich correct got removed.
+2026-08-13 14:23:41.879 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:23:44.310 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:44.310 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 14:23:46.394 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:46.880 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:46.880 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableMicroscope. Feedback given.
+2026-08-13 14:23:48.129 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:48.532 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:48.532 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:23:49.114 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:49.114 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:23:49.516 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:49.516 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableMicroscope. Feedback given.
+2026-08-13 14:23:50.419 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:23:50.905 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:23:50.905 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 14:24:02.486 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:24:05.097 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 14:24:05.097 +02:00 [INF] snapInteractorCapacitor added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 14:24:36.023 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 14:24:39.773 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 14:24:39.773 +02:00 [INF] snapInteractorLid added to WRONG Interactable SnapInteractableLightSource. Feedback given.
+2026-08-13 14:24:41.454 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 14:24:42.024 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 14:24:42.024 +02:00 [INF] snapInteractorLid added to WRONG Interactable SnapInteractableMicroscope. Feedback given.
+2026-08-13 14:24:45.050 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:46.107 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:24:46.120 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:24:46.120 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableLightSource. Feedback given.
+2026-08-13 14:24:47.648 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:47.648 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:24:48.105 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:24:48.120 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:24:48.120 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 14:24:49.328 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:49.328 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:24:49.744 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:24:49.758 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:24:49.758 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 14:24:50.412 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 14:24:51.189 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:51.190 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:24:51.216 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:24:51.231 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:24:51.231 +02:00 [INF] snapInteractorKapilarrohr added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 14:24:52.077 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:52.077 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:24:52.535 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:24:54.050 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:24:55.050 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:25:18.475 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 14:25:18.475 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 14:25:18.477 +02:00 [INF] snapInteractorRedEnd1 got removed.
+2026-08-13 14:25:18.477 +02:00 [INF] snapInteractorRedEnd1 that was eigentlich correct got removed.
+2026-08-13 14:25:18.483 +02:00 [INF] snapInteractorNetzsteckerStopWatch got removed.
+2026-08-13 14:25:18.483 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got removed.
+2026-08-13 14:28:06.696 +02:00 [INF] LOG STARTED.
+2026-08-13 14:29:14.167 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 14:29:14.167 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 14:29:27.222 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:29:27.222 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:29:28.153 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:29:28.153 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:29:28.651 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:29:28.651 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:29:29.220 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:29:29.221 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:29:30.651 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:29:30.651 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:29:32.137 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:29:32.137 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:29:33.956 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:29:33.956 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:29:34.582 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:29:34.582 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:29:40.789 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 14:29:40.789 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 14:29:48.721 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 14:29:49.915 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 14:29:49.930 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 14:29:49.930 +02:00 [INF] snapInteractorKapilarrohr added to CORRECT Interactable SnapInteractableKapilarrohr; Feedback given.
+2026-08-13 14:29:49.944 +02:00 [INF] APPLICATION FINISHED.
+2026-08-13 14:30:25.344 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 14:30:25.345 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 14:30:25.348 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 14:30:25.348 +02:00 [INF] snapInteractorKapilarrohr that was eigentlich correct got removed.
+2026-08-13 14:30:25.348 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 14:30:25.348 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 14:48:53.006 +02:00 [INF] LOG STARTED.
+2026-08-13 14:49:19.758 +02:00 [INF] snapInteractorBlackEnd1 got pluggin in.
+2026-08-13 14:49:19.759 +02:00 [INF] snapInteractorBlackEnd1 added to WRONG Interactable SnapInteractableFarRightUpper. Feedback given.
+2026-08-13 14:49:20.911 +02:00 [INF] snapInteractorBlackEnd1 got removed.
+2026-08-13 15:00:26.427 +02:00 [INF] LOG STARTED.
+2026-08-13 15:00:49.124 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:00:49.125 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:00:59.983 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:00:59.983 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:01:02.328 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:01:02.328 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:01:05.939 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:01:05.939 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:01:08.106 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:01:08.106 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:01:22.370 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:01:22.370 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:01:27.914 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:01:27.914 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:02:09.561 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:02:09.561 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:06:16.204 +02:00 [INF] LOG STARTED.
+2026-08-13 15:06:47.111 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:06:47.112 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:06:50.474 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:06:50.474 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:08:23.816 +02:00 [INF] LOG STARTED.
+2026-08-13 15:08:38.850 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:08:38.850 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:08:46.892 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:08:46.892 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:09:38.764 +02:00 [INF] LOG STARTED.
+2026-08-13 15:09:52.198 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:09:52.199 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:10:00.486 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:10:00.486 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:10:35.591 +02:00 [INF] LOG STARTED.
+2026-08-13 15:10:45.937 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:10:45.937 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:10:47.492 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:10:47.492 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:10:49.294 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:10:49.294 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:10:49.921 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:10:49.921 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:10:52.977 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:10:52.977 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:10:55.158 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:10:55.158 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:10:56.297 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:10:56.297 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:10:59.255 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:10:59.255 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:11:03.047 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:11:03.047 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:11:07.752 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:11:07.752 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:11:09.962 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:11:09.962 +02:00 [INF] snapInteractorMicroscope added to WRONG Interactable SnapInteractableFarRightUpper. Feedback given.
+2026-08-13 15:11:11.476 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:11:17.162 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:11:17.162 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:11:26.747 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:11:26.748 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:23:48.870 +02:00 [INF] LOG STARTED.
+2026-08-13 15:24:06.960 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:06.960 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableMicroscope. Feedback given.
+2026-08-13 15:24:07.765 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:24:08.460 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:08.460 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 15:24:09.821 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:24:09.821 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:24:11.140 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got pluggin in.
+2026-08-13 15:24:11.140 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit added to CORRECT Interactable snapInteractableOutlet2; Feedback given.
+2026-08-13 15:24:13.016 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:24:13.016 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:24:16.404 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:24:16.404 +02:00 [INF] snapInteractorLid added to CORRECT Interactable SnapInteractableLid; Feedback given.
+2026-08-13 15:24:17.071 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:24:17.071 +02:00 [INF] snapInteractorLid that was eigentlich correct got removed.
+2026-08-13 15:24:19.752 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:24:19.752 +02:00 [INF] snapInteractorLid added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 15:24:22.653 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:24:23.431 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:24:23.431 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 15:24:23.820 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:23.821 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 15:24:25.097 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:24:25.542 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:25.542 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 15:24:26.319 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:24:26.319 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:24:27.277 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:24:27.277 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 15:24:27.639 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:27.639 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 15:24:28.403 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:24:28.833 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:24:28.833 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 15:24:31.028 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:24:31.028 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:24:32.849 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:24:32.849 +02:00 [INF] snapInteractorLid added to WRONG Interactable SnapInteractableRedUpper. Feedback given.
+2026-08-13 15:24:34.820 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:24:35.043 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:24:35.043 +02:00 [INF] snapInteractorLid added to CORRECT Interactable SnapInteractableLid; Feedback given.
+2026-08-13 15:24:37.513 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:24:37.513 +02:00 [INF] snapInteractorRedEnd2 added to WRONG Interactable SnapInteractableBlueLower. Feedback given.
+2026-08-13 15:24:38.539 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:24:48.790 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:24:48.790 +02:00 [INF] snapInteractorRedEnd2 added to CORRECT Interactable SnapInteractableRedUpper; Feedback given.
+2026-08-13 15:25:01.555 +02:00 [INF] snapInteractorBlueEnd1 got pluggin in.
+2026-08-13 15:25:01.555 +02:00 [INF] snapInteractorBlueEnd1 added to CORRECT Interactable SnapInteractableBlueLower; Feedback given.
+2026-08-13 15:25:03.789 +02:00 [INF] snapInteractorBlueEnd1 got removed.
+2026-08-13 15:25:03.789 +02:00 [INF] snapInteractorBlueEnd1 that was eigentlich correct got removed.
+2026-08-13 15:25:09.068 +02:00 [INF] snapInteractorBlueEnd1 got pluggin in.
+2026-08-13 15:25:09.068 +02:00 [INF] snapInteractorBlueEnd1 added to CORRECT Interactable SnapInteractableBlueLower; Feedback given.
+2026-08-13 15:25:17.917 +02:00 [INF] snapInteractorNetzsteckerStopWatch got pluggin in.
+2026-08-13 15:25:17.917 +02:00 [INF] snapInteractorNetzsteckerStopWatch added to CORRECT Interactable snapInteractableOutlet1; Feedback given.
+2026-08-13 15:25:25.319 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:25:25.319 +02:00 [INF] snapInteractorRedStart2 added to CORRECT Interactable SnapInteractableRed; Feedback given.
+2026-08-13 15:25:30.070 +02:00 [INF] snapInteractorBlueStart1 got pluggin in.
+2026-08-13 15:25:30.070 +02:00 [INF] snapInteractorBlueStart1 added to CORRECT Interactable SnapInteractableBlue; Feedback given.
+2026-08-13 15:25:35.653 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:25:35.653 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableTime1Upper; Feedback given.
+2026-08-13 15:25:59.920 +02:00 [INF] snapInteractorBlueEnd2 got pluggin in.
+2026-08-13 15:25:59.920 +02:00 [INF] snapInteractorBlueEnd2 added to CORRECT Interactable SnapInteractableFarRightLower; Feedback given.
+2026-08-13 15:26:05.065 +02:00 [INF] snapInteractorBlueStart2 got pluggin in.
+2026-08-13 15:26:05.065 +02:00 [INF] snapInteractorBlueStart2 added to CORRECT Interactable SnapInteractableTime1Lower; Feedback given.
+2026-08-13 15:26:14.651 +02:00 [INF] snapInteractorRedEnd1 got pluggin in.
+2026-08-13 15:26:14.651 +02:00 [INF] snapInteractorRedEnd1 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:26:22.280 +02:00 [INF] snapInteractorBlackStart2 got pluggin in.
+2026-08-13 15:26:22.280 +02:00 [INF] snapInteractorBlackStart2 added to CORRECT Interactable SnapInteractableBlackCableLeft; Feedback given.
+2026-08-13 15:26:25.391 +02:00 [INF] snapInteractorBlackStart2 got removed.
+2026-08-13 15:26:25.391 +02:00 [INF] snapInteractorBlackStart2 that was eigentlich correct got removed.
+2026-08-13 15:26:32.019 +02:00 [INF] snapInteractorBlackEnd2 got pluggin in.
+2026-08-13 15:26:32.019 +02:00 [INF] snapInteractorBlackEnd2 added to CORRECT Interactable SnapInteractableBlackCableLeft; Feedback given.
+2026-08-13 15:26:47.395 +02:00 [INF] snapInteractorBlackStart2 got pluggin in.
+2026-08-13 15:26:47.395 +02:00 [INF] snapInteractorBlackStart2 added to WRONG Interactable SnapInteractableLightLeft. Feedback given.
+2026-08-13 15:26:48.091 +02:00 [INF] snapInteractorBlackStart2 got removed.
+2026-08-13 15:26:48.590 +02:00 [INF] snapInteractorBlackStart2 got pluggin in.
+2026-08-13 15:26:48.590 +02:00 [INF] snapInteractorBlackStart2 added to WRONG Interactable SnapInteractableLightLeft. Feedback given.
+2026-08-13 15:26:49.396 +02:00 [INF] snapInteractorBlackStart2 got removed.
+2026-08-13 15:26:49.830 +02:00 [INF] snapInteractorBlackStart2 got pluggin in.
+2026-08-13 15:26:49.831 +02:00 [INF] snapInteractorBlackStart2 added to CORRECT Interactable SnapInteractableLightRight; Feedback given.
+2026-08-13 15:26:52.858 +02:00 [INF] snapInteractorBlackEnd1 got pluggin in.
+2026-08-13 15:26:52.858 +02:00 [INF] snapInteractorBlackEnd1 added to CORRECT Interactable SnapInteractableBlackCableRight; Feedback given.
+2026-08-13 15:26:55.567 +02:00 [INF] snapInteractorBlackStart1 got pluggin in.
+2026-08-13 15:26:55.567 +02:00 [INF] snapInteractorBlackStart1 added to CORRECT Interactable SnapInteractableLightLeft; Feedback given.
+2026-08-13 15:27:05.715 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 15:27:06.885 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 15:27:06.900 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 15:27:06.900 +02:00 [INF] snapInteractorKapilarrohr added to CORRECT Interactable SnapInteractableKapilarrohr; Feedback given.
+2026-08-13 15:27:06.914 +02:00 [INF] APPLICATION FINISHED.
+2026-08-13 15:27:27.765 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:27:27.765 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:27:27.779 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:27:27.780 +02:00 [INF] snapInteractorLid that was eigentlich correct got removed.
+2026-08-13 15:27:28.376 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:27:28.376 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:27:29.348 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:27:29.349 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:27:29.515 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:27:29.515 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:27:30.056 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:27:30.056 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:27:59.530 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got removed.
+2026-08-13 15:27:59.532 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 15:27:59.532 +02:00 [INF] snapInteractorKapilarrohr that was eigentlich correct got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedEnd1 got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedEnd1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:27:59.533 +02:00 [INF] snapInteractorRedStart2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.534 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:27:59.534 +02:00 [INF] snapInteractorRedEnd2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.534 +02:00 [INF] snapInteractorBlueStart1 got removed.
+2026-08-13 15:27:59.534 +02:00 [INF] snapInteractorBlueStart1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueEnd1 got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueEnd1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueStart2 got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueStart2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueEnd2 got removed.
+2026-08-13 15:27:59.535 +02:00 [INF] snapInteractorBlueEnd2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackStart1 got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackStart1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackEnd1 got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackEnd1 that was eigentlich correct got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackStart2 got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackStart2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackEnd2 got removed.
+2026-08-13 15:27:59.536 +02:00 [INF] snapInteractorBlackEnd2 that was eigentlich correct got removed.
+2026-08-13 15:27:59.542 +02:00 [INF] snapInteractorNetzsteckerStopWatch got removed.
+2026-08-13 15:27:59.542 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:27:59.542 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 15:27:59.544 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:27:59.544 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:51:24.557 +02:00 [INF] LOG STARTED.
+2026-08-13 15:51:58.518 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got pluggin in.
+2026-08-13 15:51:58.518 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit added to CORRECT Interactable snapInteractableOutlet2; Feedback given.
+2026-08-13 15:52:21.054 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:52:21.054 +02:00 [INF] snapInteractorMicroscope added to WRONG Interactable SnapInteractableLightSource. Feedback given.
+2026-08-13 15:52:22.455 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:52:22.845 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:52:22.845 +02:00 [INF] snapInteractorMicroscope added to WRONG Interactable SnapInteractableCapacitor. Feedback given.
+2026-08-13 15:52:23.470 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:52:23.929 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:52:23.929 +02:00 [INF] snapInteractorMicroscope added to WRONG Interactable SnapInteractableKapilarrohr. Feedback given.
+2026-08-13 15:52:24.692 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:52:26.902 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:52:26.902 +02:00 [INF] snapInteractorMicroscope added to WRONG Interactable SnapInteractableBlackCableLeft. Feedback given.
+2026-08-13 15:52:40.230 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:52:41.550 +02:00 [INF] snapInteractorMicroscope got pluggin in.
+2026-08-13 15:52:41.550 +02:00 [INF] snapInteractorMicroscope added to CORRECT Interactable SnapInteractableMicroscope; Feedback given.
+2026-08-13 15:52:44.511 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:52:44.511 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableTime2Lower. Feedback given.
+2026-08-13 15:52:45.733 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:52:46.095 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:52:46.096 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableTime1Lower. Feedback given.
+2026-08-13 15:52:46.608 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:52:46.955 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:52:46.955 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableBlue. Feedback given.
+2026-08-13 15:52:47.621 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:52:53.135 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:52:53.135 +02:00 [INF] snapInteractorLightSource added to WRONG Interactable SnapInteractableBlue. Feedback given.
+2026-08-13 15:52:53.899 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:53:15.228 +02:00 [INF] snapInteractorNetzsteckerStopWatch got pluggin in.
+2026-08-13 15:53:15.228 +02:00 [INF] snapInteractorNetzsteckerStopWatch added to CORRECT Interactable snapInteractableOutlet1; Feedback given.
+2026-08-13 15:53:19.518 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:53:19.518 +02:00 [INF] snapInteractorLid added to WRONG Interactable SnapInteractableRedUpper. Feedback given.
+2026-08-13 15:53:21.127 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:53:21.127 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:53:31.197 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:53:31.932 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:53:31.932 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:53:37.433 +02:00 [INF] snapInteractorCapacitor got pluggin in.
+2026-08-13 15:53:37.433 +02:00 [INF] snapInteractorCapacitor added to CORRECT Interactable SnapInteractableCapacitor; Feedback given.
+2026-08-13 15:53:44.280 +02:00 [INF] snapInteractorRedStart1 got pluggin in.
+2026-08-13 15:53:44.281 +02:00 [INF] snapInteractorRedStart1 added to CORRECT Interactable SnapInteractableRedUpper; Feedback given.
+2026-08-13 15:53:47.418 +02:00 [INF] snapInteractorLid got pluggin in.
+2026-08-13 15:53:47.418 +02:00 [INF] snapInteractorLid added to CORRECT Interactable SnapInteractableLid; Feedback given.
+2026-08-13 15:53:50.956 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 15:53:52.318 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 15:53:53.221 +02:00 [INF] Kapilarrohr object was grabbed.
+2026-08-13 15:54:08.330 +02:00 [INF] Kapilarrohr object was let go.
+2026-08-13 15:54:08.343 +02:00 [INF] snapInteractorKapilarrohr got pluggin in.
+2026-08-13 15:54:08.343 +02:00 [INF] snapInteractorKapilarrohr added to CORRECT Interactable SnapInteractableKapilarrohr; Feedback given.
+2026-08-13 15:54:16.027 +02:00 [INF] snapInteractorRedEnd1 got pluggin in.
+2026-08-13 15:54:16.027 +02:00 [INF] snapInteractorRedEnd1 added to CORRECT Interactable SnapInteractableRed; Feedback given.
+2026-08-13 15:54:19.566 +02:00 [INF] snapInteractorBlueEnd1 got pluggin in.
+2026-08-13 15:54:19.566 +02:00 [INF] snapInteractorBlueEnd1 added to CORRECT Interactable SnapInteractableBlue; Feedback given.
+2026-08-13 15:54:24.412 +02:00 [INF] snapInteractorBlueStart1 got pluggin in.
+2026-08-13 15:54:24.412 +02:00 [INF] snapInteractorBlueStart1 added to CORRECT Interactable SnapInteractableBlueLower; Feedback given.
+2026-08-13 15:54:29.633 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:54:29.633 +02:00 [INF] snapInteractorRedEnd2 added to WRONG Interactable SnapInteractableFarRightLower. Feedback given.
+2026-08-13 15:54:30.522 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:54:31.022 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:54:31.022 +02:00 [INF] snapInteractorRedEnd2 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:54:33.468 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:54:33.468 +02:00 [INF] snapInteractorRedStart2 added to CORRECT Interactable SnapInteractableTime1Upper; Feedback given.
+2026-08-13 15:54:34.369 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:54:34.371 +02:00 [INF] snapInteractorRedStart2 that was eigentlich correct got removed.
+2026-08-13 15:54:34.732 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:54:34.732 +02:00 [INF] snapInteractorRedStart2 added to WRONG Interactable SnapInteractableTime1Lower. Feedback given.
+2026-08-13 15:54:35.246 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:54:35.481 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:54:35.481 +02:00 [INF] snapInteractorRedStart2 added to CORRECT Interactable SnapInteractableTime1Upper; Feedback given.
+2026-08-13 15:54:35.926 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:54:35.926 +02:00 [INF] snapInteractorRedStart2 that was eigentlich correct got removed.
+2026-08-13 15:54:36.161 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:54:36.161 +02:00 [INF] snapInteractorRedStart2 added to WRONG Interactable SnapInteractableTime2Lower. Feedback given.
+2026-08-13 15:54:36.661 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:54:36.940 +02:00 [INF] snapInteractorRedStart2 got pluggin in.
+2026-08-13 15:54:36.940 +02:00 [INF] snapInteractorRedStart2 added to CORRECT Interactable SnapInteractableTime1Upper; Feedback given.
+2026-08-13 15:54:38.216 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:54:38.216 +02:00 [INF] snapInteractorRedEnd2 that was eigentlich correct got removed.
+2026-08-13 15:54:38.562 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:54:38.562 +02:00 [INF] snapInteractorRedEnd2 added to WRONG Interactable SnapInteractableFarRightLower. Feedback given.
+2026-08-13 15:54:39.118 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:54:39.369 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:54:39.369 +02:00 [INF] snapInteractorRedEnd2 added to WRONG Interactable SnapInteractableRightMiddleLower. Feedback given.
+2026-08-13 15:54:39.840 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:54:40.161 +02:00 [INF] snapInteractorRedEnd2 got pluggin in.
+2026-08-13 15:54:40.161 +02:00 [INF] snapInteractorRedEnd2 added to CORRECT Interactable SnapInteractableFarRightUpper; Feedback given.
+2026-08-13 15:54:49.772 +02:00 [INF] snapInteractorBlueEnd2 got pluggin in.
+2026-08-13 15:54:49.772 +02:00 [INF] snapInteractorBlueEnd2 added to CORRECT Interactable SnapInteractableFarRightLower; Feedback given.
+2026-08-13 15:54:51.242 +02:00 [INF] snapInteractorBlueEnd2 got removed.
+2026-08-13 15:54:51.242 +02:00 [INF] snapInteractorBlueEnd2 that was eigentlich correct got removed.
+2026-08-13 15:54:55.340 +02:00 [INF] snapInteractorBlueEnd2 got pluggin in.
+2026-08-13 15:54:55.340 +02:00 [INF] snapInteractorBlueEnd2 added to CORRECT Interactable SnapInteractableFarRightLower; Feedback given.
+2026-08-13 15:55:01.283 +02:00 [INF] snapInteractorBlueStart2 got pluggin in.
+2026-08-13 15:55:01.283 +02:00 [INF] snapInteractorBlueStart2 added to CORRECT Interactable SnapInteractableTime1Lower; Feedback given.
+2026-08-13 15:55:02.297 +02:00 [INF] snapInteractorBlueStart2 got removed.
+2026-08-13 15:55:02.297 +02:00 [INF] snapInteractorBlueStart2 that was eigentlich correct got removed.
+2026-08-13 15:55:08.992 +02:00 [INF] snapInteractorBlueStart2 got pluggin in.
+2026-08-13 15:55:08.992 +02:00 [INF] snapInteractorBlueStart2 added to CORRECT Interactable SnapInteractableTime1Lower; Feedback given.
+2026-08-13 15:55:13.184 +02:00 [INF] snapInteractorLightSource got pluggin in.
+2026-08-13 15:55:13.184 +02:00 [INF] snapInteractorLightSource added to CORRECT Interactable SnapInteractableLightSource; Feedback given.
+2026-08-13 15:55:22.170 +02:00 [INF] snapInteractorBlackEnd1 got pluggin in.
+2026-08-13 15:55:22.170 +02:00 [INF] snapInteractorBlackEnd1 added to CORRECT Interactable SnapInteractableLightLeft; Feedback given.
+2026-08-13 15:55:27.293 +02:00 [INF] snapInteractorBlackStart1 got pluggin in.
+2026-08-13 15:55:27.293 +02:00 [INF] snapInteractorBlackStart1 added to WRONG Interactable SnapInteractableBlackCableLeft. Feedback given.
+2026-08-13 15:55:28.098 +02:00 [INF] snapInteractorBlackStart1 got removed.
+2026-08-13 15:55:31.459 +02:00 [INF] snapInteractorBlackStart1 got pluggin in.
+2026-08-13 15:55:31.459 +02:00 [INF] snapInteractorBlackStart1 added to CORRECT Interactable SnapInteractableBlackCableRight; Feedback given.
+2026-08-13 15:55:34.997 +02:00 [INF] snapInteractorBlackEnd2 got pluggin in.
+2026-08-13 15:55:34.997 +02:00 [INF] snapInteractorBlackEnd2 added to CORRECT Interactable SnapInteractableBlackCableLeft; Feedback given.
+2026-08-13 15:55:38.792 +02:00 [INF] snapInteractorBlackStart2 got pluggin in.
+2026-08-13 15:55:38.792 +02:00 [INF] snapInteractorBlackStart2 added to CORRECT Interactable SnapInteractableLightRight; Feedback given.
+2026-08-13 15:55:38.805 +02:00 [INF] APPLICATION FINISHED.
+2026-08-13 15:56:59.213 +02:00 [INF] snapInteractorLightSource got removed.
+2026-08-13 15:56:59.213 +02:00 [INF] snapInteractorLightSource that was eigentlich correct got removed.
+2026-08-13 15:56:59.213 +02:00 [INF] snapInteractorBlackEnd2 got removed.
+2026-08-13 15:56:59.213 +02:00 [INF] snapInteractorBlackEnd2 that was eigentlich correct got removed.
+2026-08-13 15:56:59.214 +02:00 [INF] snapInteractorBlackStart1 got removed.
+2026-08-13 15:56:59.214 +02:00 [INF] snapInteractorBlackStart1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.219 +02:00 [INF] snapInteractorNetzsteckerStopWatch got removed.
+2026-08-13 15:56:59.219 +02:00 [INF] snapInteractorNetzsteckerSupplyUnit got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorMicroscope got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorMicroscope that was eigentlich correct got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorKapilarrohr got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorKapilarrohr that was eigentlich correct got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorCapacitor got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorCapacitor that was eigentlich correct got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorLid got removed.
+2026-08-13 15:56:59.220 +02:00 [INF] snapInteractorLid that was eigentlich correct got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorRedEnd2 got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorRedEnd2 that was eigentlich correct got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorBlueEnd2 got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorBlueEnd2 that was eigentlich correct got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorRedStart1 got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorRedStart1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorBlueStart1 got removed.
+2026-08-13 15:56:59.221 +02:00 [INF] snapInteractorBlueStart1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorRedEnd1 got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorRedEnd1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorRedStart2 got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorRedStart2 that was eigentlich correct got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorBlueEnd1 got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorBlueEnd1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorBlueStart2 got removed.
+2026-08-13 15:56:59.223 +02:00 [INF] snapInteractorBlueStart2 that was eigentlich correct got removed.
+2026-08-13 15:56:59.224 +02:00 [INF] snapInteractorBlackEnd1 got removed.
+2026-08-13 15:56:59.224 +02:00 [INF] snapInteractorBlackEnd1 that was eigentlich correct got removed.
+2026-08-13 15:56:59.224 +02:00 [INF] snapInteractorBlackStart2 got removed.
+2026-08-13 15:56:59.224 +02:00 [INF] snapInteractorBlackStart2 that was eigentlich correct got removed.
