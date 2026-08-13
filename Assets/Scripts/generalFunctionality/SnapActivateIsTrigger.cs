@@ -1,7 +1,7 @@
 using Oculus.Interaction;
 using UnityEngine;
 
-public class BugFixTest : MonoBehaviour
+public class SnapActivateIsTrigger : MonoBehaviour
 {
     SnapInteractable interactable; 
 
