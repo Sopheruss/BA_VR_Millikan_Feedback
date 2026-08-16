@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class InteractorLogging : MonoBehaviour
 {
-    GrabInteractable thisGrabInteractable;
+    GrabInteractable thisGrabInteractable; 
     string objectName; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -11,12 +11,12 @@ public class InteractorLogging : MonoBehaviour
         thisGrabInteractable = GetComponent<GrabInteractable>();
         objectName = thisGrabInteractable.transform.parent.gameObject.name;
         thisGrabInteractable.WhenSelectingInteractorAdded.Action += OnInteractorAdded; 
-        thisGrabInteractable.WhenSelectingInteractorRemoved.Action += OnInteractorRemoved; 
+        thisGrabInteractable.WhenSelectingInteractorRemoved.Action += OnInteractorRemoved;
     }
 
     private void OnInteractorAdded(GrabInteractor grabInteractor)
     {
-        Logging.log.Information($"{objectName} object was grabbed."); 
+        Logging.log.Information($"{objectName} object was grabbed.");
     }
     private void OnInteractorRemoved(GrabInteractor grabInteractor)
     {
