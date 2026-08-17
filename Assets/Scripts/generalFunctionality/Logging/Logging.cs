@@ -17,6 +17,6 @@ public class Logging : MonoBehaviour
             .WriteTo.File($"Assets/StudyLogs/{logName}.txt", fileSizeLimitBytes: null)
             .CreateLogger();
 
-        log.Information("LOG STARTED."); 
+        log.Information("LOG STARTED.");
     }
 }

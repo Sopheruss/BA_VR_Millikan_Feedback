@@ -79,8 +79,6 @@ public class Feedback : MonoBehaviour
 
     private void OnInteractorAdded(SnapInteractor interactor)
     {
-        Logging.log.Information($"{interactor.name} got pluggin in.");
-
         if (isAlwaysWrong)
         {
             Wrong(interactor);
@@ -101,7 +99,7 @@ public class Feedback : MonoBehaviour
 
     private void Right(SnapInteractor interactor)
     {
-        Logging.log.Information($"{interactor.name} added to CORRECT Interactable {thisInteractable.name}; Feedback given.");
+        Logging.log.Information($",{interactor.name},{thisInteractable.name},correct");
 
         if (!interactor.transform.parent.CompareTag("Netzstecker")) 
         {
@@ -128,7 +126,7 @@ public class Feedback : MonoBehaviour
 
     private void Wrong(SnapInteractor interactor)
     {
-        Logging.log.Information($"{interactor.name} added to WRONG Interactable {thisInteractable.name}. Feedback given.");
+        Logging.log.Information($",{interactor.name},{thisInteractable.name},wrong");
 
         if (visual)
         {

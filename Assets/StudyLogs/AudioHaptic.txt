@@ -1,0 +1,17 @@
+2026-08-17 14:54:59.928 +02:00 [INF] LOG STARTED.
+2026-08-17 14:57:34.182 +02:00 [INF] LOG STARTED.
+2026-08-17 15:12:53.814 +02:00 [INF] LOG STARTED.
+2026-08-17 15:13:35.420 +02:00 [INF] Base object was grabbed.
+2026-08-17 15:13:37.072 +02:00 [INF] Base object was let go.
+2026-08-17 15:14:15.656 +02:00 [INF] LOG STARTED.
+2026-08-17 15:22:40.707 +02:00 [INF] LOG STARTED.
+2026-08-17 15:23:15.404 +02:00 [INF] AnschauungMillikan object was grabbed.
+2026-08-17 15:23:16.000 +02:00 [INF] AnschauungMillikan object was let go.
+2026-08-17 15:23:17.528 +02:00 [INF] AnschauungMillikan object was grabbed.
+2026-08-17 15:23:17.820 +02:00 [INF] AnschauungMillikan object was let go.
+2026-08-17 15:23:29.876 +02:00 [INF] Base object was grabbed.
+2026-08-17 15:23:31.055 +02:00 [INF] Base object was let go.
+2026-08-17 15:23:32.680 +02:00 [INF] SupplyUnit object was grabbed.
+2026-08-17 15:23:33.429 +02:00 [INF] SupplyUnit object was let go.
+2026-08-17 15:23:41.304 +02:00 [INF] SupplyUnit object was grabbed.
+2026-08-17 15:23:43.930 +02:00 [INF] SupplyUnit object was let go.

@@ -1,0 +1,279 @@
+2026-08-17 15:41:57.764 +02:00 [INF] LOG STARTED.
+2026-08-17 15:42:12.434 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:14.114 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:14.117 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:42:14.117 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:42:15.766 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:15.768 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:42:15.768 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:42:17.099 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:17.739 +02:00 [INF] Leiste (1) object was grabbed.
+2026-08-17 15:42:18.211 +02:00 [INF] Leiste (1) object was let go.
+2026-08-17 15:42:18.976 +02:00 [INF] Leiste (1) object was grabbed.
+2026-08-17 15:42:19.544 +02:00 [INF] Leiste (1) object was let go.
+2026-08-17 15:42:20.266 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:21.822 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:21.823 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:42:21.823 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:42:23.030 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:23.030 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:42:23.030 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:42:24.058 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:24.058 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:42:24.058 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:42:25.405 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:25.405 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:42:26.543 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:26.543 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:42:26.543 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:42:27.778 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:27.780 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:42:28.334 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:28.336 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:42:28.336 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:42:29.294 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:29.294 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:42:29.294 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:42:30.335 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:31.114 +02:00 [INF] Leiste (1) object was grabbed.
+2026-08-17 15:42:31.695 +02:00 [INF] Leiste (1) object was let go.
+2026-08-17 15:42:32.792 +02:00 [INF] Leiste (1) object was grabbed.
+2026-08-17 15:42:33.181 +02:00 [INF] Leiste (1) object was let go.
+2026-08-17 15:42:34.181 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:42:39.598 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:42:40.516 +02:00 [INF] Leiste (1) object was grabbed.
+2026-08-17 15:42:40.806 +02:00 [INF] Leiste (1) object was let go.
+2026-08-17 15:43:53.070 +02:00 [INF] LOG STARTED.
+2026-08-17 15:44:01.046 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:01.877 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:01.879 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:02.196 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:02.209 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:03.084 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:03.084 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:04.862 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:04.863 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:04.863 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:44:06.139 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:06.140 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:06.140 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:07.167 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:07.167 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:07.167 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:44:09.097 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:09.097 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:10.321 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:10.321 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:10.321 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:44:12.279 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:12.279 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:12.279 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:13.195 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:13.195 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:13.195 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:14.265 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:14.265 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:15.597 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:15.597 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:15.597 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:44:16.888 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:16.888 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:16.888 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:17.680 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:17.681 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:17.681 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:44:18.597 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:18.597 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:19.348 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:19.348 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:19.348 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:44:20.278 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:20.278 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:20.278 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:20.903 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:20.904 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:20.904 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:21.653 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:21.653 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:22.084 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:22.638 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:23.722 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:23.722 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:23.722 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:44:24.499 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:24.499 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:24.499 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:24.984 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:24.984 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:24.984 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:44:25.708 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:25.708 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:26.138 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:26.138 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:26.138 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:44:26.956 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:26.956 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:26.956 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:27.485 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:27.485 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:27.485 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:28.638 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:28.638 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:29.027 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:29.027 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:29.027 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:30.109 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:30.109 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:30.444 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:30.444 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:30.444 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:31.499 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:31.499 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:31.777 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:31.777 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:31.777 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:44:32.569 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:32.569 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:32.569 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:32.916 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:32.916 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:32.916 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:33.569 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:33.569 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:33.887 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:33.887 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:33.889 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:44:34.512 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:34.512 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:34.512 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:44:34.859 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:34.860 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:34.860 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:36.124 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:44:36.124 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:44:36.442 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:44:36.442 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:44:36.442 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:44:41.464 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:18.559 +02:00 [INF] LOG STARTED.
+2026-08-17 15:46:29.335 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:30.123 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:30.127 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:31.290 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:31.292 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:34.583 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:34.585 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:34.587 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:46:35.471 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:35.473 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:35.473 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:36.418 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:36.418 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:36.418 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:46:37.223 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:37.223 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:37.833 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:38.597 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:39.527 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:39.527 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:39.527 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:46:40.473 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:40.473 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:41.083 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:41.083 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:41.083 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:46:41.889 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:41.889 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:41.889 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:42.416 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:42.416 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:42.416 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:46:43.430 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:43.430 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:43.888 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:44.513 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:44.929 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:44.929 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:44.929 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:46:45.791 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:45.791 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:46.083 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:46.083 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:46.083 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:46:46.901 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:46.903 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:46.903 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:47.277 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:47.277 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:47.277 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:46:48.278 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:48.278 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:49.055 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:49.055 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:49.055 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:46:49.777 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:49.777 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:49.777 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:50.222 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:50.222 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:50.222 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:46:50.791 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:50.791 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:51.263 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:51.263 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:51.263 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:46:51.928 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:51.928 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:51.928 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:52.387 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:52.388 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:52.388 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:46:53.303 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:53.304 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:53.790 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:54.290 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:54.679 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:54.681 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:54.681 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:46:55.457 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:55.458 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:55.818 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:55.819 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:55.819 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:46:56.555 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:56.555 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:56.555 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:56.915 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:56.916 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:56.916 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:46:57.499 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:57.499 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:57.833 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:57.833 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:57.833 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:46:58.401 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:58.401 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:46:58.401 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:46:58.929 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:59.428 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:46:59.776 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:46:59.776 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:46:59.776 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (3). Feedback given.
+2026-08-17 15:47:00.483 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:47:00.483 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:47:00.900 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:47:00.900 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:47:00.900 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable (2); Feedback given.
+2026-08-17 15:47:01.470 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:47:01.470 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:47:01.470 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.
+2026-08-17 15:47:01.774 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:47:01.774 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:47:01.774 +02:00 [INF] SnapInteractor added to WRONG Interactable Interactable (1). Feedback given.
+2026-08-17 15:47:02.746 +02:00 [INF] Stecker object was grabbed.
+2026-08-17 15:47:02.746 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:47:03.025 +02:00 [INF] Stecker object was let go.
+2026-08-17 15:47:03.026 +02:00 [INF] SnapInteractor got pluggin in.
+2026-08-17 15:47:03.026 +02:00 [INF] SnapInteractor added to CORRECT Interactable Interactable; Feedback given.
+2026-08-17 15:47:07.095 +02:00 [INF] SnapInteractor got removed.
+2026-08-17 15:47:07.095 +02:00 [INF] SnapInteractor that was eigentlich correct got removed.

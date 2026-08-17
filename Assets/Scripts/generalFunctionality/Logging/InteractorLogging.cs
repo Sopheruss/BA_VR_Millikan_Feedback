@@ -16,10 +16,10 @@ public class InteractorLogging : MonoBehaviour
 
     private void OnInteractorAdded(GrabInteractor grabInteractor)
     {
-        Logging.log.Information($"{objectName} object was grabbed.");
+        Logging.log.Information($",{objectName},-,grabbed");
     }
     private void OnInteractorRemoved(GrabInteractor grabInteractor)
     {
-        Logging.log.Information($"{objectName} object was let go.");
+        Logging.log.Information($",{objectName},-,letgo");
     }
 }
