@@ -145,12 +145,12 @@ public class Feedback : MonoBehaviour
 
     private void OnInteractorRemoved(SnapInteractor interactor)
     {
-        Logging.log.Information($"{interactor.name} got removed.");
+        Logging.log.Information($",{interactor.name},-,removed");
 
         //Counter only has to be updated if a correct interactor is removed again 
         if(correctInteractorAdded == true)
         {
-            Logging.log.Information($"{interactor.name} that was eigentlich correct got removed.");
+            Logging.log.Information($",{interactor.name},-,correctRemoved");
             correctInteractorAdded = false; 
             Counter.UpdateCounter(false);
         }
